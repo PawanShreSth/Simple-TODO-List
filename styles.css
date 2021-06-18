@@ -8,10 +8,11 @@
   background-color: hsl(200, 100%, 50%);
   font-size: 2rem;
   text-align: center;
+  color: azure;
 }
 
 .list-item:hover {
-  color: hsl(200, 100%, 10%);
+  color: black;
   text-decoration: line-through;
 }
 
