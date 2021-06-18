@@ -1,6 +1,11 @@
 .list-item {
   cursor: pointer;
-  width: min-content;
+  width: 300px;
+  border-bottom: 1px solid #333;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  border-radius: 3px;
+  background-color: hsl(200, 100%, 50%);
 }
 
 .list-item:hover {
