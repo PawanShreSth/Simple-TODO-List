@@ -16,4 +16,8 @@ form.addEventListener('submit', e => {
   console.log(newItem);
   list.append(newItem);
   input.value = '';
+
+  newItem.addEventListener('click', () => {
+    newItem.remove();
+  });
 });
